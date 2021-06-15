@@ -26,4 +26,15 @@ The purpose of this project is twofold. The first is to build a very simple webs
 
 7/??/21 - 7/??/21: add backend functionality/connect to a database (using AWS?) 
 
+### **IDEAS TO EXPLORE IN THE FUTURE**
+##### Tools
+- using some better, digital way to design page layout and flow?? idk what it's called yet
+
+##### Features
+- log in (creating a hypnos account? connecting to other things like google? needs a lot more research)
+- changing background design (morning/night sky) based on time of day
+- adding calender and clock widgets to form for logging sleep time
+- adding histogram widget to view sleep trends over time
+- connect to a way to track changes in health, mood or productivity?
+
  
