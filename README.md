@@ -32,7 +32,11 @@ The purpose of this project is twofold. The first is to build a very simple webs
 
 ##### Features
 - log in (creating a hypnos account? connecting to other things like google? needs a lot more research)
-- changing background design (morning/night sky) based on time of day
+- changing background design (morning/night sky) based on time of day (so at nighttime, if logging right before sleep, it would be in darkmode and background like night sky, and then in daytime if logging right after waking up, it would be in lightmore and background like a pale sunset)
+- settings
+  - adjust if the day being tracked is the day of the morning or night before (but in the bkgd it's always the morning)
+  - dark mode/varying background
+  - military or regular time (but in the bkgd it's always military)
 - adding calender and clock widgets to form for logging sleep time
 - adding histogram widget to view sleep trends over time
 - connect to a way to track changes in health, mood or productivity?
