@@ -5,38 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>main</title>
+
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1>HYPNOS</h1>
-    <img src="default-profile-pic.jpg">
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam error incidunt temporibus eum dolor dignissimos atque ducimus repudiandae</p>
+    <div id="header">
+        
+        <div id="profile-placeholder">
+            <img id="profile-pic" src="default-profile-pic.jpg">
+        </div>
+        
+        <div id="header-title">
+            <h1>HYPNOS</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam error incidunt temporibus eum dolor dignissimos atque ducimus repudiandae</p>
+        </div>
+        
+        <hr>
+        <button type="button">Track</button>
+        <button type="button">The Importance of Sleep</button>
+        <button type="button">About</button>
+        <hr>
 
-    <hr>
-
-    <button type="button">Track</button>
-    <button type="button">The Importance of Sleep</button>
-    <button type="button">About</button>
-
-    <hr>
-
-    <div id="logging-menu">
-        <h3>Log your Sleep</h3>
-        <form>
-            <label for="sleptTime">Slept At (date and time):</label>
-            <input type="datetime-local" id="sleptTime" name="sleptTime">
-            <br>
-            <label for="wokeTime">Woke Up At (date and time):</label>
-            <input type="datetime-local" id="wokeTime" name="wokeTime">
-            <br>
-            <button type="button">Log</button>            
-        </form>
     </div>
-    
-    <div id="hours-display">
-        <h3>Your Sleep Trends</h3>
-        <a href="https://placeholder.com"><img src="https://via.placeholder.com/400x300?text=hours+histogram+here"></a>
-        <br>
-        <button type="button">Download full data</button> 
+
+    <div id="main-content">
+        <div class="main-content-item" id="logging-menu">
+            <h3>Log your Sleep</h3>
+            <form>
+                <label for="sleptTime">Slept At (date and time):</label>
+                <input type="datetime-local" id="sleptTime" name="sleptTime">
+                <br>
+                <label for="wokeTime">Woke Up At (date and time):</label>
+                <input type="datetime-local" id="wokeTime" name="wokeTime">
+                <br>
+                <button type="button">Log</button>            
+            </form>
+        </div>
+        
+        <div class="main-content-item"  id="hours-display">
+            <h3>Your Sleep Trends</h3>
+            <a href="https://placeholder.com"><img id="histogram-placeholder"  src="https://via.placeholder.com/400x300?text=hours+histogram+here"></a>
+            <br>
+            <button type="button">Download full data</button> 
+        </div>
     </div>
 
     <footer>
