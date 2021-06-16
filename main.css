@@ -28,3 +28,15 @@ body{
 #histogram-placeholder{
     width: 100%;
 }
+#download-full-data{
+    float:right;
+}
+
+#footer-content{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-item{
+    flex-grow: 1;
+}
