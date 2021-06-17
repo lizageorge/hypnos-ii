@@ -13,7 +13,7 @@
 <body>
     <div id="header">
         
-        <div id="profile-placeholder">
+        <div id="profile-placeholder"> <!--temporary until I add an actual log-in feature-->
             <img id="profile-pic" src="default-profile-pic.jpg">
         </div>
         
@@ -40,7 +40,8 @@
                 <label for="wokeTime">Woke Up At (date and time):</label>
                 <input type="datetime-local" id="wokeTime" name="wokeTime">
                 <br>
-                <button type="button">Log</button>            
+                <p>Time slept: --:--</p> <!-- TODO: fill in with calculated time later -->
+                <button type="button" id="log">Log</button>            
             </form>
         </div>
         
