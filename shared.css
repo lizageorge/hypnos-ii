@@ -2,6 +2,23 @@ body{
     margin: auto;
     max-width: 75%;
     position: relative;
+
+    background-color: #ebe3fa;
+    color: #0f0417;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+hr{
+    border: 1px solid #0f0417;
+}
+
+h2, h3, h4{
+    font-family: 'Noto Sans SC', sans-serif;
+}
+a:link{
+    color: #463d92;
+}
+a:visited{
+    color: #5f3d92;
 }
 
 #header{
@@ -16,10 +33,18 @@ body{
 #profile-pic{
     max-height: 100%;
 }
+h1{
+    font-family: 'Arima Madurai', cursive;
+    font-size: 275%;
+}
+
 
 button{
-    padding: 5px 10px 5px 10px ;
+    padding: 10px 15px 10px 15px ;
     margin: 5px 0px 5px 0px ;
+
+    background-color: #cbc0fc;
+    border: none;
 }
 
 #footer-content{

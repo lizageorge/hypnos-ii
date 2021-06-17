@@ -18,9 +18,9 @@ The purpose of this project is twofold. The first is to build a very simple webs
 
  
 
-6/14/21 - 6/15/21: vanilla JS/HTML/CSS 
+6/14/21 - 6/17/21: vanilla JS/HTML/CSS 
 
-6/17/21 - 6/21/21: remake using a styling front-end framework (Bootstrap?) 
+6/18/21 - 6/21/21: remake using a styling front-end framework (Bootstrap?) 
 
 6/23/21 - 6/20/21: remake using a front-end framework (React?) 
 

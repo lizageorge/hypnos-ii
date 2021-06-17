@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,19 +10,26 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="shared.css">
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200&family=Noto+Sans+JP&family=Noto+Sans+SC&display=swap" rel="stylesheet">
+
+
 </head>
+
 <body>
     <div id="header">
-        
-        <div id="profile-placeholder"> <!--temporary until I add an actual log-in feature-->
+
+        <div id="profile-placeholder">
+            <!--temporary until I add an actual log-in feature-->
             <img id="profile-pic" src="default-profile-pic.jpg">
         </div>
-        
+
         <div id="header-title">
             <h1>HYPNOS</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam error incidunt temporibus eum dolor dignissimos atque ducimus repudiandae</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam error incidunt temporibus eum dolor
+                dignissimos atque ducimus repudiandae</p>
         </div>
-        
+
         <hr>
         <button type="button" onclick="document.location='main.html'">Log Sleep</button>
         <button type="button" onclick="document.location='imp.html'">The Importance of Sleep</button>
@@ -33,23 +41,30 @@
     <div id="main-content">
         <div class="main-content-item" id="logging-menu">
             <h2>Log your Sleep</h3>
-            <form>
-                <label for="sleptTime">Slept At (date and time):</label>
-                <input type="datetime-local" id="sleptTime" name="sleptTime">
-                <br>
-                <label for="wokeTime">Woke Up At (date and time):</label>
-                <input type="datetime-local" id="wokeTime" name="wokeTime">
-                <br>
-                <p>Time slept: --:--</p> <!-- TODO: fill in with calculated time later -->
-                <button type="button" id="log">Log</button>            
-            </form>
+                <form>
+                    <div class="form-elem">
+                        <label for="sleptTime">Slept At (date and time):</label>
+                        <input type="datetime-local" id="sleptTime" name="sleptTime">
+                    </div>
+                    <div class="form-elem">
+                        <label for="wokeTime">Woke Up At (date and time):</label>
+                        <input type="datetime-local" id="wokeTime" name="wokeTime">
+                    </div>
+
+                    <!-- <br>
+                
+                <br> -->
+                    <p>Time slept: --:--</p> <!-- TODO: fill in with calculated time later -->
+                    <button type="button" id="log">Log</button>
+                </form>
         </div>
-        
-        <div class="main-content-item"  id="hours-display">
+
+        <div class="main-content-item" id="hours-display">
             <h2>Your Sleep Trends</h3>
-            <a href="https://placeholder.com"><img id="histogram-placeholder"  src="https://via.placeholder.com/400x300?text=hours+histogram+here"></a>
-            <br>
-            <button type="button" id="download-full-data">Download full data</button> 
+                <a href="https://placeholder.com"><img id="histogram-placeholder"
+                        src="https://via.placeholder.com/400x300?text=hours+histogram+here"></a>
+                <br>
+                <button type="button" id="download-full-data">Download full data</button>
         </div>
     </div>
 
@@ -64,10 +79,12 @@
             </div>
             <div id="contact" class="footer-item">
                 <h4>Contact</h4>
-                <p>Github: <a href="https://github.com/lizageorge/hypnos-ii">https://github.com/lizageorge/hypnos-ii</a></p>
+                <p>Github: <a href="https://github.com/lizageorge/hypnos-ii">https://github.com/lizageorge/hypnos-ii</a>
+                </p>
                 <p> <a href="mainto:hi.liza.george@gmail.com">hi.liza.george@gmail.com </a></p>
             </div>
         </div>
     </footer>
 </body>
+
 </html>
