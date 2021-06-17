@@ -1,0 +1,33 @@
+#main-content{
+    display: flex;
+    justify-content: center;
+}
+.main-content-item{
+    flex-grow: 1;
+
+    margin: 10px;
+}
+
+input{
+    padding: 5px;
+    background-color: #cbc0fc;
+    border: none;
+}
+.form-elem{    
+    margin: 5px 0px 5px 0px;
+    display: flex;
+    justify-content: space-between; /*TODO:change this so label and input are stacked under like 1120px width*/
+
+}
+
+#log{
+    width: 100%;
+}
+
+
+#histogram-placeholder{
+    width: 100%;
+}
+#download-full-data{
+    float:right;
+}
