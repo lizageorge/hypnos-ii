@@ -11,10 +11,12 @@ function logFunction(){
     }
     else if(wokeTime == ''){
         alert('Please select the time you woke up!');
-        //TODO: handle invalid inputs of times, like is wake up is before sleep
-    } 
+    }
+    else if( (wokeTime-sleptTime) < 0){
+        alert("Please select a valid combination of woke up at and slept at times - currently you've woken up before you went to sleep!");
+    }
     else{
-        console.log('slept ' + sleptTime + ' to ' + wokeTime);
+        // console.log('slept ' + sleptTime + ' to ' + wokeTime);
         
         var timeSleptRough = wokeTime.getTime()-sleptTime.getTime();
 
@@ -25,10 +27,9 @@ function logFunction(){
         var hours = Math.floor(sec/3600) %24 + days*24;
         var mins = Math.floor(sec/60) % 60;
 
-        var timeSlept = hours + " hours, " + mins + " minutes."
+        var timeSlept = hours + " hours, " + mins + " minutes.";
         document.getElementById("time-slept").innerHTML = timeSlept;
 
-        //TODO: check error "Unchecked runtime.lastError: The message port closed before a response was received."
     }
 
 }
