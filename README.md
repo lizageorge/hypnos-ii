@@ -40,5 +40,10 @@ The purpose of this project is twofold. The first is to build a very simple webs
 - adding calender and clock widgets to form for logging sleep time
 - adding histogram widget to view sleep trends over time
 - connect to a way to track changes in health, mood or productivity?
+- analyizing sleep data
+  - variations by weekday and weekend
+  - allow user to set their ideal sleep range and colour-code! or just grade those different days, find any trends, etc.
+
+* the page where I did all my research for this project is viewable here - https://docs.google.com/document/d/1E7WNUzVOJMTYYGRjyC76LrRIflKyZwLORUiwaKbM2xQ/edit?usp=sharing
 
  
