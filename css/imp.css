@@ -1,3 +1,16 @@
+table, th, td{
+    border: 1px solid #0f0417;
+    border-collapse: collapse;
+}
 table {
     width: 100%;
+}
+th, td{
+    padding: 15px;
+}
+th{
+    background-color: #f6f0ff;
+}
+td{
+    background-color: rgb(251, 249, 255);
 }
