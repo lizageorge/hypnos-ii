@@ -21,6 +21,10 @@ a:visited{
     color: #5f3d92;
 }
 
+.indent-start{
+    text-indent: 40px;
+}
+
 #header{
     text-align: center;
 }
