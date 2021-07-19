@@ -1,13 +1,13 @@
 # Hypnos 
 
-A website that allows you to keep track of your sleep, simply. 
+### A website that allows you to keep track of your sleep, simply. 
 
   
 
 This repository will keep track of my progress in my second try at this project, and what I learn along the way. 
 
   
-
+___
 ### **GOAL:**  
 
 The purpose of this project is twofold. The first is to build a very simple website that can be used as a sleep tracker, which is legitimately just something I need to help get my sleep schedule back under control. The second purpose of the project is to act as a way for me to learn new web development tools and techniques. I’ll start by making the website using vanilla JS, CSS, and HTML (a basic front-end-only façade). Once I finish that version, I will recreate the project using a new tool or framework that I'm learning, and then repeat this process adding additional functionality along the way. 
@@ -16,19 +16,23 @@ The purpose of this project is twofold. The first is to build a very simple webs
 
 *subject to change, I’ll update this README as necessary. I start a different coding bootcamp in July and college in August, so a lot of this schedule is up in the air depending on how much free time I get. 
 
- 
 
-6/14/21 - 6/17/21: vanilla JS/HTML/CSS 
+6/14/21 - 6/30/21: vanilla JS/HTML/CSS 
 
-6/18/21 - 6/21/21: remake using a styling front-end framework (Bootstrap?) 
+7/12/21 - 7/18/21: re-learn how to add backend functionality/connect to a database (using AWS?)
 
-6/23/21 - 6/20/21: remake using a front-end framework (React?) 
+7/19/21 - 7/27/21: add that backend functionality
 
-7/??/21 - 7/??/21: add backend functionality/connect to a database (using AWS?) 
+8/6/21 - 8/10/21: remake using a styling front-end framework and improved design (Bootstrap? Tailwind?) 
+
+8/??/21 - ??/??/21: remake using a front-end framework (React?) (starting college, this might go on backburner)
+
+___
 
 ### **IDEAS TO EXPLORE IN THE FUTURE**
-##### Tools
+##### Tools/Knowledge
 - using some better, digital way to design page layout and flow?? idk what it's called yet
+- do some more research on what makes a good website and web design and implement that (changes to font, font size and line spacing and line lengths, colours used and where they're used, the overall layout, etc.)
 
 ##### Features
 - log in (creating a hypnos account? connecting to other things like google? needs a lot more research)
