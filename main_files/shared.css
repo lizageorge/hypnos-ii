@@ -21,22 +21,6 @@ a:visited{
     color: #5f3d92;
 }
 
-h3{
-    font-size: larger;
-}
-p, li{ //TODO:list header
-    font-size: large;
-    line-height: 1.5;
-}
-
-.indent-start{
-    text-indent: 40px;
-}
-.indent-hanging{
-    text-indent: -40px; 
-    padding-left: 36px;
-}
-
 #header{
     text-align: center;
 }
@@ -61,7 +45,6 @@ button{
 
     background-color: #cbc0fc;
     border: none;
-    font-family: 'Noto Sans JP', sans-serif;
 }
 
 #footer-content{
