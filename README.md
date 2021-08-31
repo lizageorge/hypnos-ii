@@ -5,7 +5,7 @@
   
 
 This repository will keep track of my progress in my second try at this project, and what I learn along the way. 
-
+#### View the latest version of the project here; https://hypnos.vercel.app/
   
 ___
 ### **GOAL:**  
