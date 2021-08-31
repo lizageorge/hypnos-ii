@@ -15,17 +15,18 @@ The purpose of this project is twofold. The first is to build a very simple webs
 ### **TIMELINE:** 
 
 *subject to change, I’ll update this README as necessary. I start a different coding bootcamp in July and college in August, so a lot of this schedule is up in the air depending on how much free time I get. 
+*UPDATE August 31st; as expected, the time I get during college to work on this is very limited. I expect to pick this project up again during winter break of 2021, but it will have to go on the backburner until then.*
 
 
 6/14/21 - 6/30/21: vanilla JS/HTML/CSS 
 
-7/12/21 - 7/18/21: re-learn how to add backend functionality/connect to a database (using AWS?)
+8 days: re-learn how to add backend functionality/connect to a database (using AWS?)
 
-7/19/21 - 7/27/21: add that backend functionality
+3 days: add that backend functionality
 
-8/6/21 - 8/10/21: remake using a styling front-end framework and improved design (Bootstrap? Tailwind?) 
+7 days: remake using a styling front-end framework and improved design (Bootstrap? Tailwind?) 
 
-8/??/21 - ??/??/21: remake using a front-end framework (React?) (starting college, this might go on backburner)
+10 days: remake using a front-end framework (React or Vue)
 
 ___
 
